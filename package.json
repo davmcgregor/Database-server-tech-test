@@ -1,0 +1,23 @@
+{
+  "name": "database-server-tech-test",
+  "version": "1.0.0",
+  "description": "tech-test",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davmcgregor/Database-server-tech-test.git"
+  },
+  "author": "David McGregor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davmcgregor/Database-server-tech-test/issues"
+  },
+  "homepage": "https://github.com/davmcgregor/Database-server-tech-test#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
