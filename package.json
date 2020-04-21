@@ -1,11 +1,23 @@
 {
   "name": "database-server-tech-test",
   "version": "1.0.0",
-  "description": "tech-test",
-  "main": "main.js",
+  "description": "Today we will practice a tech test to demonstrate your understanding of web technologies. This is an actual tech test that was given to one of our coaches when they applied for a dev role.",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^7.1.1"
+  },
   "scripts": {
-    "start": "nodemon main.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -16,9 +28,5 @@
   "bugs": {
     "url": "https://github.com/davmcgregor/Database-server-tech-test/issues"
   },
-  "homepage": "https://github.com/davmcgregor/Database-server-tech-test#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-session": "^1.17.1"
-  }
+  "homepage": "https://github.com/davmcgregor/Database-server-tech-test#readme"
 }

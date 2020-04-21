@@ -6,6 +6,7 @@ let store = {}
 
 app.post("/set", (req, res) => {
   for (let key in req.query) {
+    console.log(key)
     store[key] = req.query[key]
   }
   console.log(store);
@@ -19,3 +20,4 @@ app.get("/get", (req, res) => {
 
 app.listen(port, () => console.log(`Server running at http://localhost:${port}`))
 
+module.exports = app;
