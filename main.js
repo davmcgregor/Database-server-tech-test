@@ -13,7 +13,8 @@ app.post("/set", (req, res) => {
 }) 
 
 app.get("/get", (req, res) => {
-  res.send(req.query.key)
+  res.send(store[req.query.key])
+  console.log(store[req.query.key]);
 })
 
 app.listen(port, () => console.log(`Server running at http://localhost:${port}`))
