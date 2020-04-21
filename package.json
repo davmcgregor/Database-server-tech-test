@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "nodemon app.js",
-    "test": "mocha"
+    "test": "mocha --exit test/test.js"
   },
   "repository": {
     "type": "git",
