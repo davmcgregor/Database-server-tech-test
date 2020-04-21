@@ -1,4 +1,10 @@
-# Database server tech test
+[![Build Status](https://travis-ci.com/davmcgregor/Database-server-tech-test.svg?branch=master)](https://travis-ci.com/davmcgregor/Database-server-tech-test)
+
+# Database server tech test 
+
+#### Technologies: Node.js, Mocha, Chai
+
+## Background 
 
 Today we will practice a tech test to demonstrate your understanding of web technologies. This is an actual tech test that was given to one of our coaches when they applied for a dev role.
 
@@ -13,6 +19,5 @@ You receive a message from a prospective employer:
 Create a new git repository and write code to fulfill the brief to the best of your ability. We will be looking for clean, well tested code in your choice of technology. In addition, the last sentence of the brief implies that you should consider how the code could easily be extended to add an as-yet-unknown data store.
 
 If you still have time at the end of the day, you can extend the code by adding a data store of your choice.
-
 
 ![Tracking pixel](https://githubanalytics.herokuapp.com/course/individual_challenges/database_server.md)
